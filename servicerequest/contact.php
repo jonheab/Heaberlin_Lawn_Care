@@ -6,7 +6,7 @@ require('recaptcha-master/src/autoload.php');
 $from = 'Heaberlin Lawn Care <servicerequest@heaberlinlawncare.com>';
 $sendTo = 'Request Account <jrheab@gmail.com>';
 $subject = 'Service Request';
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'address' => 'Address', 'city' => 'City', 'state' => 'State', 'zip' => 'Zipcode', 'springpack' => 'Spring Package', 'yearpack' => '1-Year Package', 'sprinkler' => 'Sprinkler Turn On'); // array variable name => Text to appear in the email
+$fields = array('name' => 'Firstname', 'surname' => 'Lastname', 'phone' => 'Phone', 'email' => 'Email', 'address' => 'Address', 'city' => 'City', 'state' => 'State', 'zip' => 'Zipcode', 'springpack' => 'Spring Package', 'yearpack' => '1-Year Package', 'sprinkler' => 'Sprinkler Turn On'); // array variable name => Text to appear in the email
 $okMessage = 'Service request successfully submitted. Thank you!';
 $errorMessage = 'There was an error while submitting your request. Please try again later';
 $recaptchaSecret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe';
