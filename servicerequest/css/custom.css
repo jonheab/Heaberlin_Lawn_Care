@@ -1,0 +1,25 @@
+.centerobjects{
+text-align: center;
+}
+
+.whitetexttop{
+color: #ffff;
+}
+.redtextservice {
+    color: #e74c3c;
+}
+p.label_checkbox_pair {
+    clear: both;
+    float: none;
+    position: relative;
+    }
+    p.label_checkbox_pair input {
+    left: 80px;
+    position: absolute;
+    top: 1px;
+    }
+    p.label_checkbox_pair label {
+    display: block;
+    margin-left: 90px;
+    width: 200px;
+    }
