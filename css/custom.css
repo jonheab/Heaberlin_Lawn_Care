@@ -1,10 +1,15 @@
-.centerobjects{
-text-align: center;
+.centerobjects {
+	text-align: center;
 }
-
-.whitetexttop{
-color: #ffff;
+.leftobjects {
+	text-align: left;
+}
+.whitetexttop {
+	color: #ffff;
 }
 .redtextservice {
-    color: #e74c3c;
+	color: #e74c3c;
+}
+.alerttopbar {
+	padding-top: 50px;
 }

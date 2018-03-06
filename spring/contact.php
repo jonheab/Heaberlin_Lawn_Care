@@ -7,8 +7,8 @@ $from = 'Heaberlin Lawn Care <servicerequest@heaberlinlawncare.com>';
 $sendTo = 'Request Account <jrheab@gmail.com>';
 $subject = 'Service Request';
 $fields = array('name' => 'Firstname', 'surname' => 'Lastname', 'phone' => 'Phone', 'email' => 'Email', 'address' => 'Address', 'city' => 'City', 'state' => 'State', 'zip' => 'Zipcode', 'springpack' => 'Spring Package', 'yearpack' => '1-Year Package', 'sprinkler' => 'Sprinkler Turn On'); // array variable name => Text to appear in the email
-$okMessage = 'Service request successfully submitted. Thank you!';
-$errorMessage = 'There was an error while submitting your request. Please try again later';
+$okMessage = 'Service request successfully submitted. You should recive a conformation email shortly. Thank you!';
+$errorMessage = 'There was an error while submitting your request. Please try again or reattempt the ReCapcha.';
 $recaptchaSecret = '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe';
 // let's do the sending
 
@@ -58,7 +58,7 @@ try
         mail($sendTo, $subject, $emailText, implode("\n", $headers));
         $msg = $_POST['name'] .  ",\n\nThis email is confirming your request for spring services. \n\nThank you,\n\nChris Heaberlin\nOwner\nHeaberlin Lawn Care, LLC \n\n\n\nIf you have any questions please call 970-988-8023 or email chris@heaberlinlawncare.com.\n\nThis is an automated email. Do not reply.";
         
-        mail( $_POST['email'], $ subject, $msg, 'From: ' . $from );
+        mail( $_POST['email'], $subject, $msg, 'From: ' . $from );
 
         $responseArray = array('type' => 'success', 'message' => $okMessage);
     }
