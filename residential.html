@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--START Google Analytics Gtag-->
+  <title>Residential / Heaberlin Lawn Care</title>
+</head>
+<body>
+  &lt; <!--START Google Analytics Gtag-->
+   
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83857365-1">
-  </script>
+  </script> 
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-83857365-1');
+    gtag('config', 'UA-83857365-1');
   </script><!--END Google Analytics Gtag-->
-  <!--START Meta Information-->
+   <!--START Meta Information-->
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <title>Home / Heaberlin Lawn Care</title>
   <link href="https://heaberlinlawncare.com" hreflang="en-us" rel="alternate">
   <meta content="ISO-8859-1" name="charset">
   <meta content="Heaberlin Lawn Care, Fort Collins and Northern Colorado's Trusted Lawn Care & Landscaping Company." name="description">
@@ -35,34 +38,43 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href="favicon.png" rel="shortcut icon">
   <link href="css/blueimp-gallery.min.css" rel="stylesheet"><!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   <!-- END Stylesheet and Font Imports from CDN & Server-->
-</head>
-<body>
-  <!-- navbar-->
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script> <!-- Your customer chat code -->
+  <div attribution="setup_tool" class="fb-customerchat" page_id="563404707083043" theme_color="#2e324a"></div>
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
       <a class="navbar-brand" href="index.html"><img height="65" src="img/logo/offical_logo.png" width="158"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span></span><span></span><span></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto align-items-start align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link active" href="#"><strong>Home</strong></a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item"></li>
           <li class="nav-item">
-            <a class="nav-link" href="http://bit.ly/2Nhh70W">Residential</a>
+            <a class="nav-link active" href="residential.html"><strong>Residential</strong></a>
           </li>
           <li class="nav-item"></li>
           <li class="nav-item">
-            <a class="nav-link" href="http://bit.ly/2wKky5Y">Commercial</a>
+            <a class="nav-link" href="commercial.html">Commercial</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-primary navbar-btn btn-success" href="http://bit.ly/2LV8nJf">Request a <b>Free</b> Quote</a>
+            <!-- Button trigger modal--><a class="btn btn-primary navbar-btn btn-success" href="request-quote.html">Request a <b>Free</b> Quote</a>
           </li>
         </ul>
         <div class="navbar-text">
-          <a class="btn btn-primary navbar-btn btn-success" href="tel:9709888023">Call <b>970-988-8023</b></a>
+          <!-- Button trigger modal--><a class="btn btn-primary navbar-btn btn-success" href="tel:9709888023">Call <b>970-988-8023</b></a>
         </div>
       </div>
     </nav>
@@ -79,91 +91,81 @@
   <div class="container">
     <div class="row"></div>
   </div>
-  <section class="bg-pic">
-    <div class="container">
-      <div class="row block">
-        <div class="col-lg-12 centerobjects">
-          <p class="whitetexttop">Enjoy a peaceful autumn.</p><br>
-          <p class="whitetexttop"><strong>Let us do the hard work.</strong></p>
-          <hr>
-          <p class="lead"></p><br>
-          <br>
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="navbar-text">
-                <!-- Button trigger modal--><a class="btn btn-success btn-shadow" href="http://bit.ly/2Nhh70W">Our Services</a>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="navbar-text">
-                <!-- Button trigger modal--><a class="btn btn-success btn-shadow" href="http://bit.ly/2LV8nJf">Schedule a Fall Clean Up ➜</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="newsletter bg-gray">
-    <div class="container text-center">
-      <div class="row block">
-        <div class="col-lg-12">
-          <h1>Review Us!<br>
-          We'd love to hear what you think.</h1>
-          <hr>
-          <div class="navbar-text">
-            <!-- Button trigger modal--><a class="btn btn-success btn-shadow" href="https://www.facebook.com/pg/heaberlinlawncare/reviews/?ref=page_internal">Review us on Facebook ➜</a>
-          </div>
-          <div class="navbar-text">
-            <!-- Button trigger modal--><a class="btn btn-success btn-shadow" href="https://www.google.com/search?source=hp&ei=FJ0TWvfIH8XNmwGu-o_gAw&q=heaberlin+lawn+care&oq=heaberlin+lawn+care&gs_l=psy-ab.3..0.1092.5279.0.5421.29.20.4.0.0.0.398.3033.1j4j5j3.13.0....0...1.1.64.psy-ab..13.16.3141...0i10k1j0i30k1j0i22i30k1j33i160k1j0i13k1.0.AQZdxmF52pY#lrd=0x87694c7a54ec225f:0x4a89ad5d95ee10a9,1,,,">Review us on Google ➜</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section>
     <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-12 title-padding">
-          <h1>Some of our work</h1>
+      <div class="row block">
+        <nav aria-label="breadcrumb" role="navigation">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Residential Services</li>
+          </ol>
+        </nav>
+        <div class="col-lg-12">
+          <h1>Residential Services</h1>
+          <hr>
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="smaller">Weekly Mowing</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Save time and money with Weekly Mowing from Heaberlin Lawn Care. Mowing your lawn can get in the way of spending your weekend the way you want to. With mowing from Heaberlin Lawn Care you rest easy knowing that you can spend your weekend enjoying your yard without the hassle of mowing it. Our Weekly mowing package has everything you need to have the best-looking lawn on the block including a professional mow, trim, and finishing blow off to complete the look. Weekly Mowing is billed once per month.</p>
+            </div>
+            <div class="col-lg-12">
+              <a class="btn btn-primary navbar-btn btn-success" href="request-quote.html">Get Started➜</a>
+              <p class="fine">or Call: 970-988-8023</p>
+            </div>
+          </div>
+          <div class="row view-more-padding">
+            <div class="col-lg-12">
+              <h1 class="smaller">Our Residential Services</h1>
+              <hr>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="service-h4">Mowing starting at $40</h4>
+              <h4 class="service-h4">Dethatching</h4>
+              <h4 class="service-h4">Hauling</h4>
+              <h4 class="service-h4">Aeration</h4>
+              <h4 class="service-h4">Fall Clean Up</h4>
+              <h4 class="service-h4">Spring Clean Up</h4>
+              <h4 class="service-h4">Full Yard Installations</h4>
+              <h4 class="service-h4">Field Mowing</h4>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="service-h4">Snow Removal</h4>
+              <h4 class="service-h4">Edging</h4>
+              <h4 class="service-h4">Gutter Clean Outs</h4>
+              <h4 class="service-h4">Tilling</h4>
+              <h4 class="service-h4">Power Washing</h4>
+              <h4 class="service-h4">Pruning</h4>
+              <h4 class="service-h4">Tree and Shrub Planting</h4>
+              <h4 class="service-h4">Sprinkler Start-Ups</h4>
+            </div>
+            <div class="col-lg-4">
+              <h4 class="service-h4">Weeding</h4>
+              <h4 class="service-h4">Installations</h4>
+              <h4 class="service-h4">Fertilization</h4>
+              <h4 class="service-h4">Sprinkler Repairs</h4>
+              <h4 class="service-h4">Sprinkler Blow Outs</h4>
+              <h4 class="service-h4">Holiday Lighting</h4>
+            </div>
+            <div class="col-lg-12">
+              <hr>
+              <h4 class="service-h4">Don't see it? We may still do it. Give us a Call: 970-988-8023</h4>
+            </div>
+            <div class="col-sm-12">
+              <p class="fine">* All pricing is dependent on project scale, time to complete, and material cost. Actual prcing may vary.</p>
+            </div>
+            <div class="col-lg-12">
+              <div class="navbar-text">
+                <a class="btn btn-primary navbar-btn btn-success" href="request-quote.html">Request a FREE Quote ➜</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-12"></div>
-        <div class="col-lg-4 picpadding"><img height="320px" src="img/IMG_0406.JPG" width="320px"></div>
-        <div class="col-lg-4 picpadding"><img height="320px" src="img/IMG_0407.JPG" width="320px"></div>
-        <div class="col-lg-4 picpadding"><img height="320px" src="img/IMG_0946.JPG" width="320px"></div>
-        <div class="col-lg-12 view-more-padding">
-          <!--<a class="btn btn-success" href="our_work.html">View More ➜</a>-->
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="extra-features bg-primary" id="extra-features">
-    <div class="container text-center">
-      <h2>See what our customers have to say</h2>
-      <p class="lead">Reviews from Google & Facebook</p>
-      <div class="block">
-        <blockquote class="blockquote">
-          <p class="mb-0">Chris and his crew are great! I have been using his service for several seasons. I highly recommend him. He and his crew keep up with regular mowing for me and have also repaired sprinklers, done aeration, and laid mulch. Great work at a reasonable price.</p>
-          <footer class="blockquote-footer">
-            Jolly J. on <cite title="Source Title"><a href="https://www.google.com/maps/contrib/109008392892463387233/place/ChIJXyLsVHpMaYcRqRDulV2tiUo/@42.1921585,-104.2440919,7z/data=!4m6!1m5!8m4!1e1!2s109008392892463387233!3m1!1e1?hl=en-US">Google Reviews</a></cite>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="block">
-        <blockquote class="blockquote">
-          <p class="mb-0">Chris & his crew do a fantastic job removing our snow and aerating our yard. I am very particular with my yard and have no issues trusting Chris and his crew to take great care of it, year round.</p>
-          <footer class="blockquote-footer">
-            Sadie S. on <cite title="Source Title"><a href="https://www.google.com/maps/contrib/113473998767018223812/place/ChIJXyLsVHpMaYcRqRDulV2tiUo/@40.5590339,-105.0474388,11z/data=!4m6!1m5!8m4!1e1!2s113473998767018223812!3m1!1e1?hl=en-US">Google Reviews</a></cite>
-          </footer>
-        </blockquote>
-      </div>
-      <div class="block">
-        <blockquote class="blockquote">
-          <p class="mb-0">Chris and his crew do an amazing job on my lawn! Professional, reliable and friendly!</p>
-          <footer class="blockquote-footer">
-            Angie R. on <cite title="Source Title"><a href="https://www.facebook.com/pg/heaberlinlawncare/reviews/">Facebook</a></cite>
-          </footer>
-        </blockquote>
       </div>
     </div>
   </section>
@@ -208,9 +210,9 @@
           </ul>
         </div>
         <div class="col-lg-3">
-          <h5><a href="#">Home</a></h5>
-          <h5><a href="http://bit.ly/2Nhh70W">Residential</a></h5>
-          <h5><a href="http://bit.ly/2wKky5Y">Commercial</a></h5>
+          <h5><a href="index.html">Home</a></h5>
+          <h5><a href="residential.html">Residential</a></h5>
+          <h5><a href="commercial.html">Commercial</a></h5>
         </div>
         <div class="col-lg-3">
           <h5><a href="about.html">About Us</a></h5>
@@ -250,6 +252,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
   </script> 
   <script src='https://www.google.com/recaptcha/api.js'>
+  </script> 
+  <script src="validator.js">
+  </script> 
+  <script src="contact.js">
   </script>
 </body>
 </html>

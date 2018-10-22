@@ -4,12 +4,37 @@
 .leftobjects {
 	text-align: left;
 }
+.rightobjects {
+	text-align: right;
+}
 .whitetexttop {
 	color: #ffff;
+	font-size: 45px;
+	text-shadow:#222f3e;
 }
-.redtextservice {
-	color: #e74c3c;
+.fine {
+	font-size: 12px;
 }
-.alerttopbar {
+.title-padding {
+	padding-bottom: 50px;
+}
+.view-more-padding {
 	padding-top: 50px;
+}
+.smaller {
+	font-size: 30px;
+}
+.service-h4 {
+	font-weight: 400;
+}
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+option {
+	font-size: 12px;
+}
+.picpadding {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }

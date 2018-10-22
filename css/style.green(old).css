@@ -25,10 +25,10 @@ i, span, strong {
 	background: #f5f5f5;
 }
 .bg-pic, section.browser .nav-tabs a.active {
-	background-image: url("../img/MqubN5_bg.jpg");
+	background-image: url("../img/Optimized-aaron-burden-147833-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-position: bottom;
+	
 }
 .no-padding {
 	padding: 0 !important;
@@ -227,7 +227,7 @@ section header {
 	display: block;
 	padding-left: 10px;
 	color: #656565;
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 }
 #signupform input {
 	width: 100%;
@@ -241,21 +241,21 @@ section header {
 	border-color: #429244;
 }
 #signupform input::-moz-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	color: #aaa;
 	font-style: italic;
 	font-size: 0.9em;
 }
 #signupform input::-webkit-input-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	color: #aaa;
 	font-style: italic;
 	font-size: 0.9em;
 }
 #signupform input:-ms-input-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	color: #aaa;
 	font-style: italic;
@@ -279,7 +279,7 @@ nav.navbar {
 	padding-bottom: 15px;
 	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-	background-color: #ffffff;
+	background: #fff;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
@@ -560,18 +560,18 @@ section.newsletter .form-group input {
 	background: none;
 	outline: none;
 	padding: 0 30px;
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 }
 section.newsletter .form-group input::-moz-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 }
 section.newsletter .form-group input::-webkit-input-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 }
 section.newsletter .form-group input:-ms-input-placeholder {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 }
 section.newsletter .form-group .submit {
@@ -654,7 +654,7 @@ footer.main-footer ul.social-icons a:hover {
 	background: #429244;
 }
 footer.main-footer .copyrights {
-	margin-top: 25px;
+	margin-top: 150px;
 }
 footer.main-footer .copyrights .container {
 	padding: 30px 0;
@@ -1248,7 +1248,7 @@ STYLE SWITCHER FOR DEMO
  */
 
 body {
-	font-family: 'Roboto Slab', serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 1rem;
 	font-weight: normal;
 	line-height: 1.5;
